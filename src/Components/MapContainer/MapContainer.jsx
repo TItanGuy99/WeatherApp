@@ -29,13 +29,6 @@ class MapContainer extends Component {
         console.log(longitude);
       });
     }
-
-    this.setState({
-      center: {
-        lat: latitude,
-        lng: longitude,
-      },
-    });
   };
 
   componentDidMount() {
